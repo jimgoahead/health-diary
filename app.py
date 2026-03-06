@@ -31,7 +31,7 @@ main_menus = ["-"] + food_db[food_db['Category (หมวดหมู่)'] == '
 drink_menus = ["-"] + food_db[food_db['Category (หมวดหมู่)'] == 'Drink']['Menu_Name (ชื่อเมนู)'].tolist()
 addon_menus = ["-"] + food_db[food_db['Category (หมวดหมู่)'] == 'Add-on']['Menu_Name (ชื่อเมนู)'].tolist()
 
-latest_weight = 80.7
+latest_weight = 79.7
 if not log_data.empty and 'Weight_kg' in log_data.columns:
     valid_weights = pd.to_numeric(log_data['Weight_kg'], errors='coerce').dropna()
     if not valid_weights.empty:
