@@ -12,7 +12,7 @@ st.title("🥗 Smart Health Diary")
 st.write(f"สวัสดีค่ะเจ้านาย! วันนี้วันที่ **{datetime.now().strftime('%d/%m/%Y')}** เจนนี่พร้อมบันทึกไดอารีแล้วค่ะ")
 
 # เอาลิงก์ Google Sheets ของเจ้านายมาวางในบรรทัดนี้เลยค่ะ!! 👇
-SHEET_URL = "ใส่ลิงก์_Google_Sheets_ของเจ้านายตรงนี้"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/1xq86DKoNS1uXhk9pjB6p_QtvCyfBTGw1h2Dnx6JU2_o/edit?gid=10965313#gid=10965313"
 
 # ฟังก์ชันคำนวณ BMR (สำหรับผู้ชาย)
 def calculate_bmr(weight, height, age):
